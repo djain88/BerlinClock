@@ -1,0 +1,11 @@
+package com.ubs.opsit.interviews;
+import com.ubs.opsit.interviews.TimeConverter;
+
+public class TimeConverterImpl implements TimeConverter {
+	@Override
+	public String convertTime(String aTime) {
+		// TODO Auto-generated method stub
+		return new BerlinClock(aTime).printClock().toString();
+	}
+}
+
