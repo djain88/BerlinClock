@@ -81,8 +81,8 @@ public class BerlinClock {
     /**
      * Print a representation of the berlin time.
      */
-    public void printClock() {
-        System.out.println(this);
+    public BerlinClock printClock() {
+        return this;
     }
 
     @Override
